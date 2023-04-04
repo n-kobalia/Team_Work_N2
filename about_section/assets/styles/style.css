@@ -47,54 +47,71 @@ a{
 }
 
 
-.promote_section{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 160px;
+.about_us{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 200px;
 }
 
-.side-info{
-    display: flex;
-    flex-direction: column;
-    gap: 38px;
+.left-picture-side{
+	position: relative;
 }
 
-.title{
-    font-family: 'Istok Web';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 48px;
-    line-height: 69px;
-    color: black;
+.about_section_img1{
+	position: absolute;
+	bottom: -100px;
+    right: -60px;
 }
 
-.side-info h3{
-    font-family: 'Istok Web';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 35px;
-    color: black;
+.about_us_title{
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 24px;
+	line-height: 29px;
+	color: #0A7777;
 }
 
-.search_travel{
-    display: flex;
-    align-items: center;
-    padding: 36px 87px 36px 27px;
-    gap: 35px;
-    border-radius: 63px;
-    box-shadow: 3px 4px 5px rgba(168, 168, 168, 0.25);
+.about_us h2{
+	font-family: 'Istok Web';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 48px;
+	line-height: 69px;
 }
 
-.search_travel p {
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 15px;
-    line-height: 18px;
+.about_us_text{
+	font-family: 'Istok Web';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 35px;
 }
 
-.search_travel span{
-    font-size: 12px;
+.about_us_numbers{
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 50px;
+	line-height: 61px;
+	color: #0A7777;
+	display: flex;
+	gap: 57px;
+}
+
+.about_us_text2{
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 24px;
+	display: flex;
+	gap: 40px;
+}
+
+.right_side_text{
+	display: flex;
+	flex-direction: column;
+	gap: 70px;
 }
