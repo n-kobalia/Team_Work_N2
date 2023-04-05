@@ -7,3 +7,13 @@
     font-family: "Isto kWeb";
     src: url(../fonts/IstokWeb-Regular.ttf);
 }
+
+@font-face {
+    font-family: "Inter-Regular";
+    src: url(../fonts/Inter-Regular.ttf);
+}
+
+@font-face {
+    font-family: "IstokWeb-Regular";
+    src: url(../fonts/IstokWeb-Regular.ttf);
+}

@@ -46,7 +46,6 @@ a{
     text-decoration: none;
 }
 
-
 #header{
     box-shadow: 0px 4px 8px rgba(168, 168, 168, 0.25);
 }
@@ -84,7 +83,7 @@ a{
     line-height: 29px;
     cursor: pointer;
     border: none;
-
+}
 
 .promote_section{
     display: flex;
@@ -207,3 +206,441 @@ a{
 	display: flex;
 	flex-direction: column;
 	gap: 70px;
+}
+
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+/* Page 3 scc starts here*/
+.page-entrance {
+    width: 371.43px;
+    height: 70px;
+    color: #0A7777;
+    margin-top: 106px;
+    margin-left: 171px;
+    font-family: "Inter-Regular";
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+}
+
+.page-3-header {
+    height: 200px;
+    margin-left: 171px;
+    font-size: 48px;
+    line-height: 69px;
+    font-family: "IstokWeb-Regular";
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+}
+
+.cards {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-left: 171px;
+}
+
+.card-one-info {
+    width: 370px;
+    height: 430px;
+    background: rgba(217, 217, 217, 0.47);
+    border-radius: 13px;
+}
+
+.card-one-img {
+    margin-left: 24px;
+    margin-right: 25.44px;
+    margin-top: 17px;
+}
+
+.card-one-name {
+    width: 321px;
+    height: 40px;
+    font-family: "IstokWeb-Regular";
+    font-weight: 700;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    margin-top: 32px;
+    margin-left: 23px;
+}
+
+.card-one-comments {
+    display: flex;
+    align-content: space-between;
+    gap: 24px;
+    margin-top: 32px;
+    margin-left: 24px;
+}
+
+.tour-one-cost{
+    width: 134px;
+    height: 40px;
+    font-family: "IstokWeb-Regular";
+    color: #0A7777;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 34.55px;
+    display: flex;
+    align-items: center;
+}
+
+.tour-one-duration{
+    width: 162px;
+    height: 40px;
+    font-family: "IstokWeb-Regular";
+    color: #A8A8A8;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 21.59px;
+    display: flex;
+    align-items: center;
+}
+
+
+.card-info {
+    width: 370px;
+    height: 403px;
+    background: rgba(217, 217, 217, 0.47);
+    border-radius: 13px;
+}
+
+.card-img {
+    margin-left: 23px;
+    margin-right: 25.44px;
+    margin-top: 17.81px;
+}
+
+.card-name {
+    width: 321px;
+    height: 37.85px;
+    font-family: "IstokWeb-Regular";
+    font-weight: 700;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    margin-top: 30.31px;
+    margin-left: 23px;
+}
+
+.card-comments {
+    display: flex;
+    align-content: space-between;
+    gap: 25.87px;
+    margin-top: 30.15px;
+    margin-left: 24px;
+}
+
+.tour-cost{
+    width: 134px;
+    height: 37.85px;
+    font-family: "IstokWeb-Regular";
+    color: #0A7777;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 34.55px;
+    display: flex;
+    align-items: center;
+}
+
+.tour-duration{
+    width: 162px;
+    height: 37.85px;
+    font-family: "IstokWeb-Regular";
+    color: #A8A8A8;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 21.59px;
+    display: flex;
+    align-items: center;
+}
+
+.slider {
+    margin-top: 80px;
+    margin-left: 646px;
+    margin-bottom: 76px;
+    width: 220px;
+    height: 20px;
+    display: flex;
+    align-content: space-between;
+    gap: 20px;
+}
+
+.button {
+    width: 20px;
+    height: 20px;
+}
+
+
+/* Page 4 scc starts here*/
+.page-4-header {
+    height: 200px;
+    margin-left: 171px;
+    margin-top: 30px;
+    font-size: 48px;
+    line-height: 69px;
+    font-family: "IstokWeb-Regular";
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+}
+
+.reviews-section {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-left: 241px;
+    margin-bottom: 210px;
+}
+
+.customer-review-1 {
+    width: 245px;
+    height: 362px;
+    background-image: url(../images/backrgound-img-1.png);
+    background-repeat: no-repeat;
+    box-shadow: 0 0 30px rgba(168, 168, 168, 0.25);
+    border-radius: 35px;
+    filter: drop-shadow(0px 4px 8px rgba(168, 168, 168, 0.25));
+}
+
+.star_container{
+    display: flex;
+    justify-content: center;
+}
+
+.customer-review-2 {
+    width: 245px;
+    height: 362px;
+    background-image: url(../images/backrgound-img-2.png);
+    background-repeat: no-repeat;
+    box-shadow: 0 0 30px rgba(168, 168, 168, 0.25);
+    border-radius: 35px;
+    filter: drop-shadow(0px 4px 8px rgba(168, 168, 168, 0.25));
+}
+
+.customer-review-3 {
+    width: 245px;
+    height: 362px;
+    background-image: url(../images/backrgound-img-3.png);
+    background-repeat: no-repeat;
+    box-shadow: 0 0 30px rgba(168, 168, 168, 0.25);
+    border-radius: 35px;
+    filter: drop-shadow(0px 4px 8px rgba(168, 168, 168, 0.25));
+}
+
+.customer-review-4 {
+    width: 245px;
+    height: 362px;
+    background-image: url(../images/backrgound-img-4.png);
+    background-repeat: no-repeat;
+    box-shadow: 0 0 30px rgba(168, 168, 168, 0.25);
+    border-radius: 35px;
+    filter: drop-shadow(0px 4px 8px rgba(168, 168, 168, 0.25));
+}
+
+.customer-img {
+    width: 113.58px;
+    height: 135.03px;
+    margin-left: 65.44px;
+    margin-top: 38.58px;
+    margin-right: 65.98px;
+}
+
+.customer-name {
+    width: 168.49px;
+    height: 47.17px;
+    margin-left: 38.25px;
+    margin-top: 12.7px;
+    font-family: "Inter-Regular";
+    font-weight: 800;
+    font-size: 36px;
+    text-align: center;
+}
+
+.customer-comment {
+    width: 188.75px;
+    height: 75.23px;
+    margin-left: 31.83px;
+    font-family: "Inter-Regular";
+    font-weight: 400;
+    font-size: 12px;
+    text-align: center;
+}
+
+.gvantsaOne{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0 ;
+    margin-bottom: 30px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 35px;
+    color: #000000;
+    
+}
+
+.gvantsaOne h2 {
+    font-family: 'Istok Web';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 69px;
+}
+
+.gvantsaTwo{
+    display: grid;
+    padding: 16px 70px 170px 70px;
+    grid-template-columns: 3fr 0.5fr 2fr 1fr 1fr 2fr 0.5fr 3fr;
+    grid-template-rows: 0.5fr 1.2fr 1fr 1fr 1fr 1fr;
+
+    grid-template-areas: 
+    
+    "one . . two two . . three " 
+    "one . . . . . . three " 
+    "one . four four five five . three" 
+    "one . four four five five . three"
+    ". . four four five five . ."
+    ". . four four five five . .";
+
+    
+}
+
+
+.area1{grid-area: one;}
+.area2 {grid-area: two;}
+.area3 {grid-area: three;}
+.area4 {grid-area: four;}
+.area5 {grid-area: five;}
+
+
+.gvantsaSections{    
+    padding-bottom: 10px;
+    background-color: #D9D9D978;
+    /* padding: 34.12px 84px 34.12px 8px;
+    gap: 44px; */
+    border-radius: 20px;}
+
+.gvantsaButton {
+    background-color: #0A7777;
+    color: white;
+    border-radius: 5px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    cursor: pointer;
+    border: none;
+    align-items: center;
+    padding: 8.5px 7px;
+}
+
+.sectionPic{
+     
+    margin-top: 20px;
+    margin-bottom: 20px; 
+    margin-left: 38px; 
+    margin-right: 0px;
+    border-radius: 13px;
+    width: 235px;
+    height: 175px;
+}
+
+
+.place {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 35px;
+    color: #000000;
+    margin-left: 40px;
+}
+
+.insidesection{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 30px;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.duration{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 22px;
+    color: #A8A8A8;
+}
+
+.prise{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 35px;
+    color: #0A7777;
+}
+
+.gvantsaThree{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-bottom: 150px;
+}
+
+.GvantsaNav{
+    display: flex;
+    align-content: space-between;
+    gap: 90px;
+
+}
+
+.GvantsaNav a {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+    color: #000000;
+    
+}
+
+.GvantsaNav nav{
+    display: flex;
+    gap: 20px;
+    align-content: flex-start;
+    flex-direction: column;
+}
+
+.GvantsaNav nav h3{
+    font-family: 'Istok Web';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+
+.gvantsaLogos{
+    display: flex;
+    flex-direction: column;
+    gap: 50px
+}
+
+.socialMedia{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+
+    
