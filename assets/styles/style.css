@@ -47,6 +47,98 @@ a{
 }
 
 
+#header{
+    box-shadow: 0px 4px 8px rgba(168, 168, 168, 0.25);
+}
+
+.nav-menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+    padding: 55px 0px 55px 0px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.nav-menu a{
+    color: black;
+}
+
+.nav-menu a:hover{
+    color: #0A7777;
+}
+
+.sign-up{
+    padding: 8.5px 10px 8.5px 10px;
+    background-color: #0A7777;
+    color: white;
+    border-radius: 5px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    cursor: pointer;
+    border: none;
+
+
+.promote_section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 160px;
+    margin-top: 70px;
+}
+
+.side-info{
+    display: flex;
+    flex-direction: column;
+    gap: 38px;
+}
+
+.title{
+    font-family: 'Istok Web';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 69px;
+    color: black;
+}
+
+.side-info h3{
+    font-family: 'Istok Web';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 35px;
+    color: black;
+}
+
+.search_travel{
+    display: flex;
+    align-items: center;
+    padding: 36px 87px 36px 27px;
+    gap: 35px;
+    border-radius: 63px;
+    box-shadow: 3px 4px 5px rgba(168, 168, 168, 0.25);
+}
+
+.search_travel p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+}
+
+.search_travel span{
+    font-size: 12px;
+}
+
 .about_us{
 	display: flex;
 	align-items: center;
@@ -115,4 +207,3 @@ a{
 	display: flex;
 	flex-direction: column;
 	gap: 70px;
-}
