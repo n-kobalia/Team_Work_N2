@@ -1,0 +1,183 @@
+*{
+    box-sizing: border-box;
+    margin: o;
+    padding: 0;
+    display: grid;
+    font-family: "Istok Web";
+}
+
+.gvantsaOne{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0 ;
+    margin-bottom: 30px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 35px;
+    color: #000000;
+
+
+    
+}
+
+.gvantsaTwo{
+    display: grid;
+    padding: 16px 70px 170px 70px;
+    grid-template-columns: 3fr 0.5fr 2fr 1fr 1fr 2fr 0.5fr 3fr;
+    grid-template-rows: 0.5fr 1.2fr 1fr 1fr 1fr 1fr;
+
+    grid-template-areas: 
+    
+    "one . . two two . . three " 
+    "one . . . . . . three " 
+    "one . four four five five . three" 
+    "one . four four five five . three"
+    ". . four four five five . ."
+    ". . four four five five . .";
+
+    
+}
+
+
+.area1{grid-area: one;}
+.area2 {grid-area: two;}
+.area3 {grid-area: three;}
+.area4 {grid-area: four;}
+.area5 {grid-area: five;}
+
+
+
+
+
+.gvantsaSections{
+    /* display: flex;
+    flex-direction: column; */
+    
+    /* align-items: center; */
+    background-color: #D9D9D978;
+    /* padding: 34.12px 84px 34.12px 8px;
+    gap: 44px; */
+    border-radius: 20px;}
+
+
+
+
+
+.gvantsaButton {
+    background-color: #0A7777;
+    color: white;
+    border-radius: 5px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    cursor: pointer;
+    border: none;
+    align-items: center;
+}
+
+.sectionPic{
+     
+    margin-top: 20px ;
+    /* margin-bottom: 20px; 
+    margin-left: 17px; 
+    margin-right: 0px; */
+
+    justify-self: center;
+    
+    border-radius: 13px;
+    width: 235px;
+    height: 175px;
+}
+
+
+.place {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 35px;
+    color: #000000;
+    margin-left: 40px;
+}
+
+
+
+.insidesection{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 30px;
+    align-items: center;
+}
+
+
+
+
+.duration{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 22px;
+    color: #A8A8A8;
+}
+
+.prise{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 35px;
+    color: #0A7777;
+}
+
+
+
+.gvantsaThree{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-bottom: 150px;
+}
+
+.GvantsaNav{
+    display: flex;
+    align-content: space-between;
+    gap: 90px;
+
+}
+
+.GvantsaNav a {
+    text-decoration: none;
+    
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+    
+    color: #000000;
+
+}
+
+.GvantsaNav nav{
+    gap: 20px;
+    align-content: flex-start;
+}
+
+
+.gvantsaLogos{
+    display: flex;
+    flex-direction: column;
+    gap: 50px
+}
+
+.socialMedia{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+
+
