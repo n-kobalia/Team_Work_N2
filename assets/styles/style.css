@@ -83,4 +83,57 @@ a{
     line-height: 29px;
     cursor: pointer;
     border: none;
+
+
+.promote_section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 160px;
+    margin-top: 70px;
+}
+
+.side-info{
+    display: flex;
+    flex-direction: column;
+    gap: 38px;
+}
+
+.title{
+    font-family: 'Istok Web';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 69px;
+    color: black;
+}
+
+.side-info h3{
+    font-family: 'Istok Web';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 35px;
+    color: black;
+}
+
+.search_travel{
+    display: flex;
+    align-items: center;
+    padding: 36px 87px 36px 27px;
+    gap: 35px;
+    border-radius: 63px;
+    box-shadow: 3px 4px 5px rgba(168, 168, 168, 0.25);
+}
+
+.search_travel p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+}
+
+.search_travel span{
+    font-size: 12px;
 }
