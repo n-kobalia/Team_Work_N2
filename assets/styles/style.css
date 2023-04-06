@@ -499,17 +499,17 @@ html, body {
 .gvantsaTwo{
     display: grid;
     padding: 16px 70px 170px 70px;
-    grid-template-columns: 3fr 0.5fr 2fr 1fr 1fr 2fr 0.5fr 3fr;
+    grid-template-columns: 3fr 0.5fr 2fr 1fr 0.05fr 0.05fr 1fr 2fr 0.5fr 3fr;
     grid-template-rows: 0.5fr 1.2fr 1fr 1fr 1fr 1fr;
 
     grid-template-areas: 
     
-    "one . . two two . . three " 
-    "one . . . . . . three " 
-    "one . four four five five . three" 
-    "one . four four five five . three"
-    ". . four four five five . ."
-    ". . four four five five . .";
+    "one . . two two two two . . three " 
+    "one . . . . . . . . three " 
+    "one . four four . . five five . three" 
+    "one . four four . . five five . three"
+    ". . four four . . five five . ."
+    ". . four four . . five five . .";
 
     
 }
@@ -527,7 +527,13 @@ html, body {
     background-color: #D9D9D978;
     /* padding: 34.12px 84px 34.12px 8px;
     gap: 44px; */
-    border-radius: 20px;}
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: space-between;
+    padding: 20px;
+}
 
 .gvantsaButton {
     background-color: #0A7777;
@@ -546,13 +552,16 @@ html, body {
 
 .sectionPic{
      
-    margin-top: 20px;
-    margin-bottom: 20px; 
-    margin-left: 38px; 
-    margin-right: 0px;
+    /* margin-top: 20px;
+    margin-bottom: 20px;  */
+    /* margin-left: 48px;  */
+    /* margin-right: 0px; */
+    align-self: center;    
     border-radius: 13px;
-    width: 235px;
-    height: 175px;
+    width: 100%;
+    height: 100%;
+    justify-content: space-between;
+    margin-bottom: 15px;
 }
 
 
